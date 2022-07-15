@@ -28,11 +28,18 @@
                                     <segment title="Satelite"/>
                                     <segment title="Hybrid"/>
                                 </segments>
+                                <connections>
+                                    <action selector="segumentChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="sJM-ns-gEx"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="eKy-9k-L1x" id="O9M-iP-iA1"/>
+                        <outlet property="segumentControl" destination="DWn-oF-b6Q" id="jcW-Nm-8JP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
